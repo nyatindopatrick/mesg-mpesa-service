@@ -1,0 +1,13 @@
+{
+  "name": "mesg-mpesa-service",
+  "version": "1.0.0",
+  "description": "M-pesa service",
+  "main": "index.js",
+  "dependencies": {
+    "@mesg/service": "^0.1.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "stripe": "^7.9.1"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,8 @@
+{
+  "email": "...",
+  "amount": 1000,
+  "currency": "usd",
+  "source": "tok_visa",
+  "stripeSecretKey": "sk_test_...",
+  "metadata": {}
+}
