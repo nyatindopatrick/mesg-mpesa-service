@@ -1,8 +1,7 @@
 {
-  "email": "...",
+  "phone": "...",
   "amount": 1000,
-  "currency": "usd",
-  "source": "tok_visa",
-  "stripeSecretKey": "sk_test_...",
+  "source": "groceries",
+  "apiKey": "test_...",
   "metadata": {}
 }
