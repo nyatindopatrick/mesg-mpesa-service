@@ -33,6 +33,7 @@ events:
       <<: *transactionMessage
 configuration:
   env:
-    - STRIPE_SECRET_KEY=
+    - API_KEY=
+    - USER_NAME=
   ports:
     - 3001:3001
