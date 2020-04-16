@@ -12,5 +12,5 @@ MESG.listenTask({
 
 const app = express()
 app.use(bodyParser.json())
-app.post('/stripe', handleWebhook(MESG))
+app.post('/mpesa', handleWebhook(MESG))
 app.listen(3001, () => console.log(`Stripe webhook server started app listening on port 3001!`))
