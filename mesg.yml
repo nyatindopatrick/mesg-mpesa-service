@@ -7,7 +7,7 @@ tasks:
     inputs:
       phone:
         description: "Phone number of the user to charge"
-        type: Number
+        type: String
       amount:
         description: "Amount to charge, this value should be in cents"
         type: Number
@@ -17,23 +17,36 @@ tasks:
       metadata:
         description: "Some meta data related to the payment"
         type: Object
-    outputs: &transactionMessage
-      transactionId:
-        description: "ID of the charge on M-Pesa"
-        type: String
-      description:
-        description: "A detailed description of the request status"
-        type: String
-      status:
-        description: "The status of the request"
-        type: String
-events:
-  charged:
-    data:
-      <<: *transactionMessage
-configuration:
-  env:
-    - API_KEY=
-    - USER_NAME=
-  ports:
-    - 3001:3001
+        optional: true
+    # outputs:
+      # status:
+      #   description: "The status of the request"
+      #   type: String
+    #   transactionId:
+    #     description: "ID of the charge on M-Pesa"
+    #     type: String
+    #   description:
+    #     description: "A detailed description of the request status"
+    #     type: String
+  
+
+steps:
+  - type: task
+    instance:
+      src: https://github.com/mesg-foundation/service-webhook
+    taskKey: request
+    inputs:
+      url: "https://webhook.site/9233ac5d-0ae0-407e-a06c-136810233aec"
+      data:
+        type: Object
+                
+# events:
+#   charged:
+#     data:
+#       <<: *transactionMessage
+# configuration:
+#   env:
+#     - API_KEY=
+#     - USER_NAME=
+#   ports:
+#     - 3001:3001

@@ -1,7 +1,5 @@
 {
-  "phone": "...",
-  "amount": 1000,
-  "source": "groceries",
-  "apiKey": "test_...",
-  "metadata": {}
+  "phone": "+254718714785",
+  "amount": 10,
+  "source": "Patostore"
 }
