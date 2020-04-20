@@ -1,9 +1,8 @@
-const axios = require("axios");
 module.exports = async (payments, options) => {
   try {
     const result = await payments.mobileCheckout(options);
-    console.log(result);
-    return res
+    const { description, transactionId, providerChannel, status } = result;
+    return { description, transactionId, providerChannel, status };
   } catch (err) {
     console.log(err);
   }

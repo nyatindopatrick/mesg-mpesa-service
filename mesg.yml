@@ -18,35 +18,20 @@ tasks:
         description: "Some meta data related to the payment"
         type: Object
         optional: true
-    # outputs:
-      # status:
-      #   description: "The status of the request"
-      #   type: String
-    #   transactionId:
-    #     description: "ID of the charge on M-Pesa"
-    #     type: String
-    #   description:
-    #     description: "A detailed description of the request status"
-    #     type: String
-  
-
-steps:
-  - type: task
-    instance:
-      src: https://github.com/mesg-foundation/service-webhook
-    taskKey: request
-    inputs:
-      url: "https://webhook.site/9233ac5d-0ae0-407e-a06c-136810233aec"
-      data:
-        type: Object
-                
-# events:
-#   charged:
-#     data:
-#       <<: *transactionMessage
-# configuration:
-#   env:
-#     - API_KEY=
-#     - USER_NAME=
-#   ports:
-#     - 3001:3001
+    outputs:
+      description:
+        description: "The status of the request"
+        type: String
+      transactionId:
+        description: "ID of the charge on M-Pesa"
+        type: String
+      providerChannel:
+        description: "A detailed description of the request status"
+        type: String
+      status:
+        description: "Status of the transaction"
+        type: String
+configuration:
+  env:
+    - API_KEY=
+    - USER_NAME=Sandbox
