@@ -34,4 +34,4 @@ tasks:
 configuration:
   env:
     - API_KEY=
-    - USER_NAME=Sandbox
+    - USER_NAME=
