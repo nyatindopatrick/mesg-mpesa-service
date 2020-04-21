@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/nyatindopatrick/mesg-mpesa-service">
-    <img src="images/service-screenshot.jpg" alt="Logo" width="150" height="80">
+    <img src="https://user-images.githubusercontent.com/48393059/79856716-6096f500-83d5-11ea-81b4-2b063e0cca08.jpg" alt="Logo" width="150" height="80">
   </a>
 
   <h3 align="center">MPesa MESG Service</h3>
@@ -19,7 +19,6 @@
     <a href="https://github.com/nyatindopatrick/mesg-mpesa-service"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/nyatindopatrick/mesg-mpesa-service/feature/index.html">View Demo</a>
     ·
     <a href="https://github.com/nyatindopatrick/mesg-mpesa-service/issues">Report Bug</a>
     ·
@@ -42,7 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](images/service-screenshot.jpg)
+[![Product Name Screen Shot][product-screenshot]](https://user-images.githubusercontent.com/48393059/79856716-6096f500-83d5-11ea-81b4-2b063e0cca08.jpg)
 
 <!-- ABOUT THE PROJECT -->
 ## Contents
@@ -178,7 +177,7 @@ Give a ⭐️ if you like this project!
 [stars-url]: https://github.com/nyatindopatrick/mesg-mpesa-service/stargazers
 [issues-shield]: https://img.shields.io/github/issues/nyatindopatrick/mesg-mpesa-service.svg?style=flat-square
 [issues-url]: https://github.com/nyatindopatrick/mesg-mpesa-service/issues
-[product-screenshot]: images/service-screenshot.jpg
+[product-screenshot]: https://user-images.githubusercontent.com/48393059/79856716-6096f500-83d5-11ea-81b4-2b063e0cca08.jpg
 
 ## 📝 License
 

@@ -7,4 +7,3 @@ const MESG = new Service();
 MESG.listenTask({
   charge
 });
-
