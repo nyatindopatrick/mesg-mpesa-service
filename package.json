@@ -4,7 +4,7 @@
   "description": "M-pesa service",
   "main": "index.js",
   "dependencies": {
-    "@mesg/service": "^0.1.1",
+    "@liteflow/service": "^1.0.7",
     "africastalking": "^0.4.5",
     "dotenv": "^8.2.0"
   },

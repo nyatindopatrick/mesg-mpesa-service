@@ -1,4 +1,4 @@
-const Service = require("@mesg/service");
+const Service = require("@liteflow/service");
 const charge = require("./tasks/charge");
 require("dotenv").config()
 
